@@ -1,0 +1,169 @@
+html,
+body,
+div,
+span,
+object,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+button,
+abbr,
+address,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+article,
+aside,
+footer,
+header,
+section,
+summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body,
+html {
+    width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input,
+button,
+a,
+select,
+option {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type='checkbox'] {
+    border: none !important;
+}
+
+caption,
+hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+pre {
+    word-break: break-all;
+    white-space: pre-line;
+}
+
+em {
+    font-style: normal;
+}
+
+svg {
+    fill: currentColor;
+}
+
+/*클래스 */
+
+.txt-center {
+    text-align: center;
+}
+
+.hidden {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.ac {
+    align-items: center;
+}
+
+.flex.jc {
+    justify-content: center;
+}
+
+.flex.col {
+    flex-direction: column;
+}
+
+.flex.sb {
+    justify-content: space-between;
+}
